@@ -259,3 +259,9 @@ footer,h4,h3{
 .contact-from-area h2{
     font-size:35px;
 }
+.contact-from-submit-button{
+    padding: 20px 3px 20px 3px!important;
+    background-color: #F66660;
+    color:white;
+    font-weight: 800;
+}
