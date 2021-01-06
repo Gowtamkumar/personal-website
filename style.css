@@ -240,8 +240,11 @@ footer,h4,h3{
     border: 2px solid;
 }
 .contact-from input {
-    padding: 20px 7px 20px 7px;
+    /* padding: 20px 7px 20px 7px;
+    border-radius: 5px; */
+    padding: 20px 3px 20px 3px;
     border-radius: 5px;
+    width: 47%;
 }
 .contact-from {
     width: 35%;
