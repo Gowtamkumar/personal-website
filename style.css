@@ -1,0 +1,258 @@
+body{
+    font-family: 'Poppins', 'Roboto', sans-serif;
+
+    margin: 0px;
+}
+h1{
+    font-size:60px!important;
+}
+section{
+    height: 500px;
+}
+/* header-area */
+.main-menu {
+    width: 85%;
+    height: 50px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.main-menu ul {
+    float: right;
+}
+.main-menu ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.personal-heading-area{
+    width: 100%;
+}
+.haif-width{
+    width: 38%;
+    margin-left: 6%;
+    margin-right: 6%;
+    float: left;
+}
+.haif-width img{
+    width: 100%;
+}
+.haif-width h1{
+   font-weight: 800;
+   font-family: 'Courier New', monospace;
+   line-height: 20px;
+    
+}
+.haif-width p{
+   margin-bottom: 40px;
+   text-align: justify;
+     
+ }
+ .haif-width-inner{
+    font-size:35px;
+ }
+#title-of-personal-website{
+   margin-top: 159px;
+     
+ }
+ .my-name{
+    color: #F66660;
+ }
+ .link-button {
+    padding: 12px 40px 12px 40px;
+    background-color: #F66660;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+   
+}
+.haif-width h2{
+    margin-top: 156px;
+}
+
+/* experiences-area */
+.experiences-area{
+    width: 100%;
+    /* margin-top: 92px;
+    width: 85%;
+    margin-left: 6%;
+    margin-right: 6%; */
+}
+.experiences-area-inner{
+    font-size:35px;
+}
+.experiences-area-haif-width{
+    width: 36%;
+    margin-left: 6%;
+    margin-right: 6%;
+    float: left;
+    padding:10px;
+}
+.single-expreience{
+    box-shadow: 10px 10px 40px gray;
+    height: 40%;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    
+}
+#junier-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+/* experiences-area end*/
+/* header-area end*/
+/* work-area */
+.both{
+    clear: both;
+}
+.work-area-section{
+    height: 800px;
+}
+.work-area-section{
+    background-color: #f9f6f5;
+}
+.work-area-section h2{
+    font-size:35px;
+    
+    /* padding-top: 50px!important; */
+    padding-top:61px;
+}
+.work-area{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    float: left;
+    margin-top:50px;
+}
+
+
+.work-area-inner{
+    width: 28%;
+    background-color:white;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    float: left;
+    padding:14px;
+    border-radius: 10px;
+}
+.work-area-inner img{
+    width: 90%;
+}
+
+.work-inquiry-area{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    height: 235px;
+}
+
+.work-inquiry-inner{
+    width: 60%;
+    height: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url("img/Group_33094_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:inherit;
+    margin-top: 106px;
+    border-radius: 10px;
+}
+.work-inquiry-inner-inner{
+    float: left;
+    width: 40%;
+    padding:20px 20px 20px 20px;
+    
+    
+}
+.work-inquiry-inner-inner h2{
+    padding: 21px 20px 0px 44px;
+    font-family: 'Courier New', monospace;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+.work-inquiry-inner-inner-link-button{
+    padding: 12px 40px 12px 40px;
+    background-color: #F66660;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    float: right;
+    margin-top: 30px;
+}
+
+/* work-area end*/
+
+footer{
+    text-align: center;
+}
+footer img{
+    width: 28%;
+}
+footer ul {
+    float: center;
+}
+footer ul li {
+    display: inline-block;
+    
+}
+footer ul li a {
+  text-decoration: none;
+}
+footer ul li a i{
+    font-size: 40px;
+    color:#F66660;
+  }
+footer,h4,h3{
+    line-height: 8px;
+
+}
+.contact-from-area{
+    /* width: 85%;
+    margin-left: 6%;
+    margin-right: 6%; */
+    background-color: #f9f6f5;
+    padding-top: 48px;
+}
+.contact-from textarea {
+    margin-top: 14px;
+    width: 98%;
+    border-radius: 5px;
+    border-color: black;
+    border: 2px solid;
+}
+.contact-from input {
+    padding: 20px 33px 20px 33px;
+    border-radius: 5px;
+}
+.contact-from {
+    width: 35%;
+    margin-left: 6%;
+    margin-right: 6%;
+    float: left;
+    padding: 10px;
+    background-color: white;
+    height: 300px;
+}
+
+.contact-from-area h2{
+    font-size:35px;
+}
